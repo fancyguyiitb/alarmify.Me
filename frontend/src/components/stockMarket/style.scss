@@ -1,0 +1,73 @@
+.stockMarketCards {
+  .card-col {
+    @media only screen and (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 5px;
+    }
+  }
+  .card {
+    width: 23vw;
+
+    margin-bottom: 30px;
+
+    max-width: 280px;
+    @media (max-width: 600px) {
+      max-width: 380px;
+    }
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+    background-color: inherit;
+    border: none;
+  }
+  img {
+    max-height: 157px;
+    @media only screen and (max-width: 600px) {
+      height: 500px;
+    }
+  }
+
+  .card-img-top {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .card-body {
+    padding: 0;
+    padding-top: 15px;
+
+    .tagName {
+      font-size: 10px;
+      @media only screen and (max-width: 600px) {
+        font-size: 15px;
+      }
+      background-color: var(--black-light);
+      color: #fff;
+      padding: 3px 7px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+      cursor: default;
+      border: none;
+    }
+
+    .card-text {
+      font-size: 13px;
+    }
+
+    a {
+      font-size: 12px;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+    }
+  }
+}

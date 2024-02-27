@@ -1,0 +1,75 @@
+.callToActionContainer {
+  background-color: #fff;
+  position: relative;
+  @media (max-width: 600px) {
+    margin-top: 55px;
+  }
+
+  .registerImg {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+      @media (max-width: 600px) {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+
+  .callToActionText {
+    h4 {
+      font-weight: bold;
+      @media (max-width: 600px) {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      @media (min-width: 600px) {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+      }
+    }
+  }
+
+  .signUpBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      @media (min-width: 600px) {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+      }
+      @media (max-width: 600px) {
+        margin-bottom: 20px;
+      }
+
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      font-size: 18px;
+
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+    }
+  }
+}
